@@ -1,0 +1,9 @@
+frame,type,left,reference,left_label,reference_label,iou
+adasind_006840.jpg,mismatching_attributes,9,9,Pedestrian,Pedestrian,0.844
+adasind_006840.jpg,extra_annotation,7,,ThreeWheeler,,N/A
+adasind_006840.jpg,missing_annotation,,4,,ThreeWheeler,N/A
+adasind_006840.jpg,missing_annotation,,6,,ThreeWheeler,N/A
+adasind_036720.jpg,mismatching_attributes,4,4,Bike,Bike,0.900
+adasind_056040.jpg,mismatching_attributes,2,2,Bike,Bike,0.862
+adasind_056040.jpg,mismatching_attributes,1,1,Car,Car,0.710
+adasind_056040.jpg,mismatching_label,7,7,ThreeWheeler,Car,0.570

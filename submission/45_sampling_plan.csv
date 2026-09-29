@@ -1,0 +1,9 @@
+camera_id,slice_type,frames,risk,rationale
+front,normal,20,thấp,"Làn đường thẳng, xe phía trước ở vùng center; đủ mẫu để làm mốc so sánh cho hard"
+front,hard,35,cao,"Đông xe, auto-rickshaw và xe hai bánh chồng nhau ở mid (giống lỗi 006840); ThreeWheeler là class yếu nhất; vật lớn bị cắt ở rìa bị model bỏ sót"
+rear,normal,15,thấp,"Ít đối tượng tương tác; chủ yếu kiểm ego_body/lens_border đúng phạm vi"
+rear,hard,25,trung bình,"Xe bám sát phía sau chiếm cả khung, bị cắt và méo mạnh ở rìa; dễ lệch truncated/edge_zone"
+left,normal,15,trung bình,"Lề đường, người đi bộ và xe đỗ; thân xe ego lọt vào khung cần ignore đúng"
+left,hard,30,cao,"Vùng seam trước-trái/sau-trái; rider và xe hai bánh vượt sát, bị ego_body che (giống 036720/056040); dễ MISSING và DUPLICATE qua camera"
+right,normal,20,trung bình,"Quán/hàng rong ven đường nhiều vật đứng yên lẫn nền (bài học C0 bị sót ThreeWheeler)"
+right,hard,40,cao,"Auto-rickshaw và ô tô bị che khuất dày ở mid, vật lớn chiếm nửa khung ở rìa phải (036720 L1, 056040 L5); seam trước-phải; model gọi sai class nhiều nhất"

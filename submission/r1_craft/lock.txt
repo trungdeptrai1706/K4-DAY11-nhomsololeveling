@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B1-center
+sha256: 5715ff4ca2818fd2efb22a7d14aeda8f461548f68c9df8dc2357bf1eba341ce2
+code: 5715-FF4C
+locked_at: 2026-09-29T17:23:52+07:00
+shapes: box=20, polygon=13
+prefill_kept: 3
+prefill_edited: 2
+new: 15

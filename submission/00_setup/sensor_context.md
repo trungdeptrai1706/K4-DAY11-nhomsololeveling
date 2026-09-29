@@ -1,0 +1,6 @@
+# Sensor context
+
+- Rig: một camera fisheye duy nhất, ảnh dọc 1080×1920, nhìn về phía trước theo hướng xe chạy. Theo quan sát (bóng người ngồi trên xe hai bánh in trên mặt đường ở frame 019560, cánh tay/tay áo người lái lọt vào mép trái ở 036720 và 056040), camera nhiều khả năng gắn trên xe hai bánh, phía trước người lái, lệch sang trái. ADASIND không kèm tài liệu rig; đây là suy luận từ ảnh, không phải thông số đã kiểm chứng (chiều cao lắp, góc nghiêng, calibration đều không có).
+- `ego_body` nhìn thấy ở mép trái, nửa dưới vòng kính: cánh tay/tay áo và một phần tay lái của người lái xe gắn camera (ví dụ 036720 khoảng x 0–150, y 1070–1560; 056040 khoảng x 0–230, y 1090–1600). Frame 006840 không thấy thân xe nên không vẽ `ego_body`. Bóng người/xe trên mặt đường không tính là `ego_body`.
+- Vòng kính (lens circle): chiếm gần hết bề ngang ảnh và bị cắt ở hai cạnh trái/phải; theo chiều dọc nằm khoảng y ≈ 120–1690. Phần ngoài vòng (bốn góc và dải đen trên/dưới, khoảng 20–25% khung) là `lens_border`, đã được import sẵn thành 2 polygon mỗi frame. Rìa vòng kính biến dạng mạnh: fill ratio K12 ở zone edge trung bình 0.57 so với 0.82 ở center.
+- Giới hạn: dữ liệu chỉ có một camera, không có camera thứ hai, timestamp đồng bộ hay calibration, nên không kết luận được về seam hoặc liên kết đối tượng giữa các camera SVM.
