@@ -43,7 +43,7 @@ Bảng này xác định vai của nhóm. Vòng QA tự sinh trong team.json thu
 ## 5. Xác nhận trước khi nộp
 - [x] A xác nhận nhãn và export đúng phiên bản: Trần Đình Cương / r1_craft/lock.txt (5715-FF4C), rework/lock2.txt (6ECD-7779)
 - [x] B xác nhận đã QA độc lập trước reference và kiểm lại ca sửa: Nguyễn Minh Trung / r2_qa/qa_review.md, rework/delta.md
-- [x ] C xác nhận báo cáo đúng bản khóa, các file đầy đủ và check exit 0: [Nguyễn Minh Trung / manifest.json, python lab11.py check]
+- [x] C xác nhận báo cáo đúng bản khóa, các file đầy đủ và check exit 0: [Nguyễn Minh Trung / manifest.json, python lab11.py check]
 - [x] manifest.json tại commit chốt có failed_gates rỗng.
 - [x] Repo nhóm Public, ảnh và các bằng chứng mở được.
-- [x ] C đã push và gửi link repo nhóm + commit qua kênh lớp công bố.
+- [x] C đã push và gửi link repo nhóm + commit qua kênh lớp công bố.
